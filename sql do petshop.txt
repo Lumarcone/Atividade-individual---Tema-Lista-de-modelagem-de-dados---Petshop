@@ -1,0 +1,31 @@
+CREATE TABLE Cliente(
+  cpf VARCHAR(50),
+  nome VARCHAR(50),
+  Telefone VARCHAR(50),
+  Email VARCHAR(50)
+  );
+  
+  INSERT INTO Cliente VALUES ('111.222.333-44', 'Rafael Silva', '(11) 9876-5432', 'rafaelsilva@example.com'),
+  ('222.333.444-55', 'Carolina Santos', '(21) 8765-4321', 'carolina.santos@example.com'),
+('333.444.555-66', 'Bruno Oliveira', '(31) 7654-3210', 'bruno.oliveira@example.com'),
+('444.555.666-77', 'Mariana Lima', '(41) 6543-2109', 'mariana.lima@example.com'),
+('555.666.777-88', 'Lucas Souza', '(51) 5432-1098', 'lucas.souza@example.com'),
+('666.777.888-99', 'Renata Costa', '(61) 4321-0987', 'renata.costa@example.com');
+
+SELECT*FROM Cliente;
+
+
+CREATE TABLE Pet(
+  Nome VARCHAR(50),
+  Espécie VARCHAR(50),
+  DataNasci DATE
+  );
+
+INSERT INTO Pet VALUES ('Max', 'Cachorro', '2019-05-10'),
+('Luna', 'Gato', '2018-08-15'),
+('Rex', 'Papagaio', '2020-02-20'),
+('Bella', 'Coelho', '2017-11-25'),
+('Thor', 'Tartaruga', '2016-04-30'),
+('Lola', 'Hamster', '2021-01-05');
+
+SELECT *FROM Pet;
